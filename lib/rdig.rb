@@ -54,7 +54,7 @@ end
 
 
 $KCODE = 'u'
-require 'jcode'
+# require 'jcode'
 
 # See README for basic usage information
 module RDig
