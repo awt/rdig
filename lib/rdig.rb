@@ -53,7 +53,7 @@ end
 #require 'htmlentities/htmlentities'
 
 
-$KCODE = 'u'
+# $KCODE = 'u'
 # require 'jcode'
 
 # See README for basic usage information
