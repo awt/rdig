@@ -22,7 +22,8 @@ module RDig
         @config.rewrite_uri.call(document.uri) if @config.rewrite_uri
         # all stored and tokenized, should be ferret defaults
         doc = { 
-          :url   => document.uri.to_s,
+          :url => document.uri.to_s,
+          :host  => document.uri.host,
           :title => document.title,
           :data  => document.body
         }
